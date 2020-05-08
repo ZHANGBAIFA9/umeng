@@ -1,0 +1,145 @@
+[appid]
+sohuvideo
+faobengplay
+tianya
+gaodemap
+
+[tenantid]
+tnt009
+tnt023
+tnt501
+
+[devicelist]
+ios#苹果#iPhon Xs
+ios#苹果#iPhon Xs Max
+ios#苹果#iPhon 8Plus
+ios#苹果#iPhon 8S
+ios#苹果#iPhon 5S
+ios#苹果#iPhon 8
+ios#苹果#iPhon 9
+ios#苹果#iPhon 10
+android#三星#三星S10#
+android#三星#三星S9#
+android#三星#三星S8#
+android#三星#三星Note 9#
+android#三星#三星S9+#
+android#三星#三星S9+ Star#
+android#三星#三星Galaxy S 轻奢版#
+android#华为#荣耀 v9 Play#
+android#华为#荣耀 畅玩7c#
+android#华为#荣耀 畅玩7#
+android#华为#华为畅享7#
+android#华为#华为新旗舰Mate20#
+android#魅族#魅蓝6#
+android#魅族#魅蓝Note6#
+android#小米#红米 note4高配版#
+android#小米#红米6 Pro#
+android#小米#红米65 Plus#
+android#小米#红米note5A高配版#
+android#小米#红米手机2移动版#
+android#小米#红米Note3全网通高配版
+android#小米#红米4A#
+android#锤子#Smartisan U1#
+android#Vivo#Vivo X21#
+android#Vivo#Vivo Z1#
+blackberry#黑莓#黑莓 Passport#
+blackberry#黑莓#黑莓 Q30#
+blackberry#黑莓#黑莓 Q10#
+blackberry#黑莓#黑莓 Classic#
+blackberry#黑莓#黑莓 P9982#
+blackberry#黑莓#黑莓 KEYone#
+
+[ostype]
+ios=ios8,ios9,ios10,ios11,ios12
+android=android 4.0,anroid 5.0,anddoid 5.1,android 6.0,android 7.0,android 8.0
+blackberry=berry3.0,berry 4.0,berry 5.5
+
+[appversion]
+1.0.0
+1.1.0
+1.2.0
+2.0.0
+
+[screensize]
+1136 * 640
+960 * 640
+480 * 320
+
+[screensize]
+1136 * 640
+960 * 640
+480 * 320
+
+[appchannel]
+umeng
+appstore
+channel park
+
+[country]
+china
+america
+
+[province]
+henan
+hebei
+guangdong
+guangxi
+shandong
+shanxi
+jiazhou
+
+[network]
+wifi
+cell
+3g
+4g
+
+[carrier]
+中国移动
+中国联通
+中国电信
+中国铁通
+
+[eventid]
+popmenu
+autoImport
+bookstore
+
+[eventdurationse22]
+34
+35
+36
+38
+
+[errorbrief]
+at cn.lift.dfdf.web.AbstractBaseController.validInbound(AbstractBaseController.java:72)
+at cn.lift.appIn.control.CommandUtil.getInfo(CommandUtil.java:67)
+
+[errordetail]
+java.lang.NullPointerException at cn.lift.appIn.web.AbstractBaseController.validInbound(AbstractBaseController.java:72) at cn.lift.dfdf.web.AbstractBaseController.validInbound
+at cn.lift.dfdfdf.control.CommandUtil.getInfo(CommandUtil.java:67) at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) at java.lang.reflect.Method.invoke(Method.java:606)
+
+[pageid]
+list.html
+main.html
+test.html
+
+[visitindex]
+0
+1
+2
+3
+4
+
+[nextpage]
+list.html
+main.html
+test.html
+
+[staydurationsec]
+45
+2
+78
+123
+456
+234

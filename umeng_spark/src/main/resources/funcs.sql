@@ -1,0 +1,17 @@
+use umeng_bigdata ;
+drop function if exists forkstartuplogs ;
+drop function if exists forkeventlogs ;
+drop function if exists  forkerrorlogs ;
+drop function if exists  forkpagelogs ;
+drop function if exists  forkusagelogs ;
+drop function if exists  formatbyday ;
+drop function if exists  formatbyweek ;
+drop function if exists  formatbymonth ;
+create TEMPORARY function forkstartuplogs as 'com.umeng.hive.udtf.ForkStartuplogsUDTF' ;
+create TEMPORARY function forkeventlogs as 'com.umeng.hive.udtf.ForkEventlogsUDTF' ;
+create TEMPORARY function forkerrorlogs as 'com.umeng.hive.udtf.ForkErrorlogsUDTF' ;
+create TEMPORARY function forkpagelogs as 'com.umeng.hive.udtf.ForkPagelogsUDTF' ;
+create TEMPORARY function forkusagelogs as 'com.umeng.hive.udtf.ForkUsagelogsUDTF' ;
+create TEMPORARY function formatbyday as 'com.umeng.hive.udf.FormatByDayUDF' ;
+create TEMPORARY function formatbyweek as 'com.umeng.hive.udf.FormatByWeekUDF' ;
+create TEMPORARY function formatbymonth as 'com.umeng.hive.udf.FormatByMonthUDF' ;
