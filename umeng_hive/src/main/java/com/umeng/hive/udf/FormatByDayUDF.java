@@ -77,11 +77,11 @@ public class FormatByDayUDF extends GenericUDF {
                 }
                 if(ois[2].getCategory() != ObjectInspector.Category.PRIMITIVE
                         || ((PrimitiveObjectInspector)ois[2]).getPrimitiveCategory() != PrimitiveObjectInspector.PrimitiveCategory.INT){
-                    throw new UDFArgumentException("参数{2}需要是int类型");
+                    throw new UDFArgumentException("参数{3}需要是int类型");
                 }
                 if(ois[3].getCategory() != ObjectInspector.Category.PRIMITIVE
                         || ((PrimitiveObjectInspector)ois[3]).getPrimitiveCategory() != PrimitiveObjectInspector.PrimitiveCategory.STRING){
-                    throw new UDFArgumentException("参数{2}需要是string类型");
+                    throw new UDFArgumentException("参数{4}需要是string类型");
                 }
                 converters[0] = ObjectInspectorConverters.getConverter(ois[0] , PrimitiveObjectInspectorFactory.javaStringObjectInspector) ;
                 converters[1] = ObjectInspectorConverters.getConverter(ois[1] , PrimitiveObjectInspectorFactory.javaStringObjectInspector) ;
